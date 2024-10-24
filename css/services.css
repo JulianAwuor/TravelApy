@@ -1,0 +1,57 @@
+h1#heading1{
+    text-align: center;
+}
+.paragraph{
+    font-family: DejaVu Sans Mono;
+    font-size: 18px;
+}
+#mydivision{
+    background-color: dodgerblue;
+    margin: 50px;
+    padding: 30px;
+}
+#mydivision h1{
+    color: white;
+    text-align: center;
+}
+#test{
+    display: flex;
+    background-color: darkorange;
+    margin: 50px;
+    padding: 30px;
+    color: white;
+}
+#test img{
+   margin-right: 30px;
+    border-radius: 400px;
+    width: 50%;
+    height: 50%;
+}
+#main{
+    display: flex;
+}
+#advertisement{
+    background-color: red;
+    color: white;
+    margin-right: 20px;
+    padding: 30px;
+    box-shadow: 10px 8px 8px 4px grey;
+}
+#accounting{
+     background-color: orangered;
+    color: white;
+    margin-right: 20px;
+    padding: 30px;
+    box-shadow: 10px 8px 8px 4px grey;
+}
+#payment{
+     background-color: forestgreen;
+    color: white;
+    margin-right: 20px;
+    padding: 30px;
+    box-shadow: 10px 8px 8px 4px grey;
+}
+#advertisement:hover,#accounting:hover,#payment:hover{
+    background-color: beige;
+}
+
